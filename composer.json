@@ -1,6 +1,7 @@
 {
     "require": {
         "react/event-loop": "^1.1.0",
-        "react/stream": "^1.1.0"
+        "react/stream": "^1.1.0",
+        "react/promise": "^2.7.1"
     }
 }

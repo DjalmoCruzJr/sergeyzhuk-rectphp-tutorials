@@ -6,7 +6,7 @@ $loop = \React\EventLoop\Factory::create();
 
 // $input = STDIN;
 $input = fopen(__DIR__ . '/input.txt', 'r');
-$readableStream = new \React\Stream\ReadableResourceStream(input, $loop);
+$readableStream = new \React\Stream\ReadableResourceStream($input, $loop);
 
 // $output = STDOUT;
 $output = fopen(__DIR__ . '/output.txt', 'w');
